@@ -1,0 +1,22 @@
+{
+  "short_name": "Агро Мир",
+  "name": "Агро Мир",
+  "description": "Добро Пожаловать в Агро Мир",
+  "icons": [
+    {
+      "src": "/img/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#e7e7e7",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#e7e7e7"
+}

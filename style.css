@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #e7e7e7;
+  line-height: 1.5;
+}
+
+header {
+  color: #fff;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-bg {
+  background: #000;
+  height: 37.59px;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* padding-left: 2px;
+  padding-right: 2px; */
+}
+
+.container.container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav .top-nav__ul {
+  display: flex;
+}
+
+.top-nav .top-nav__ul li {
+  list-style-type: none;
+  font-size: 0.69rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: 700;
+  border-right: 1px solid #333;
+}
+
+.top-nav .top-nav__ul li:nth-last-child(1) {
+  border-right: 0;
+}
+
+.top-nav .top-nav__ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav .top-nav__ul li a:hover {
+  text-decoration: underline;
+}
+
+.exit-btn-container a {
+  color: #fff;
+}
+.exit-btn-container a i {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container.container-header {
+  padding: 0;
+  background: url('/img/header_bg.jpg');
+  height: 102px;
+}
+
+.container.container-nav {
+  padding: 0;
+}
+
+.main-nav {
+  background: #fff;
+  color: #000;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.main-nav .main-nav__ul {
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav .main-nav__ul li {
+  list-style-type: none;
+  font-size: 0.687em;
+  font-weight: 600;
+  padding: 1.125em 0;
+  text-transform: uppercase;
+}
+
+.main-nav .main-nav__ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-nav .main-nav__ul li a.active {
+  color: #62a7d9;
+  text-decoration: none;
+}
+
+.main-nav .main-nav__ul li a:hover {
+  color: #62a7d9;
+  text-decoration: underline;
+}
+
+.content {
+  padding: 1em 1.5em;
+  background: white;
+}
+
+.content h1 {
+  font-size: 1.6rem;
+}
+
+.content p {
+  font-weight: bold;
+}
